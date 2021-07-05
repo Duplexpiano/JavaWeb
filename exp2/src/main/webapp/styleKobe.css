@@ -1,0 +1,162 @@
+body {
+    font:76% 宋体;
+    font-size: 18px;
+    text-align:center;
+    background-image: url("Image/kobe_bg.jpg");
+    background-repeat: repeat;
+}
+
+audio {
+    width: 150px;
+}
+
+h1 {
+    color:#505050;
+    font-size: 40px;
+    font-weight:bold;
+    letter-spacing:-1px;
+    margin:0 0 12px;
+}
+
+h2 {
+    color:#505050;
+    font-size: 30px;
+    font-weight:bold;
+    letter-spacing:-1px;
+    margin:0 0px 12px;
+}
+
+a {
+    color:#505050;
+    font-weight:bold;
+    text-decoration:none; /*通常用于从链接上删除下划线：*/
+}
+
+p {
+    font-size: 20px;
+    line-height:1.5em;
+    margin:0 0px 15px;
+}
+
+/*** Main container ***/
+#container {
+    padding:0;
+    min-width: 770px;
+    text-align:left;
+    width:100%;
+}
+
+/*** Header section ***/
+
+#top {
+    height: 100px;
+    margin:10px 20px 10px;
+    border-radius: 10px;
+    background-image: url("Image/kobe_top.jpg");
+    background-repeat: repeat-x;
+}
+
+
+/*** Content wrap ***/
+
+
+#wrap {
+    clear:both;
+    font-size:0.9em;
+    padding:0;
+}
+
+/*** Sidebars ***/
+
+#rightSide {
+    padding:0 10px 10px;
+    width:165px;
+    float:right;
+}
+
+#music{
+    width: 140px;
+    margin: 5px;
+}
+
+/*** Sidebar menu ***/
+.nav{
+    background: salmon;
+    border:1px solid;
+    border-radius: 5px;
+    color:#606060;
+    display:block;
+    margin-top:20px;
+    padding:5px 4px 4px 10px;
+    width: 140px;
+}
+
+.nav:hover,.active {
+    background:#f8f9fa;
+    border:1px solid #909090;
+    color:#303030;
+    text-decoration:none;
+}
+
+/*** Content ***/
+#content{
+    background-color: coral;
+    border:1px solid;
+    border-top-color: indigo;
+    border-left-color: coral;
+    border-right-color: coral;
+    border-radius: 5px;
+    padding:15px 20px 5px;
+    margin:10px 200px 10px 20px;
+}
+
+#content_1 {
+    border:0px solid;
+    border-radius: 5px;
+    padding:15px 20px 5px;
+    margin:10px 200px 10px 20px;
+}
+
+#content_1 img{
+    border:1px solid #b0b0b0;
+    border-radius: 5px;
+    float: left;
+    margin:5px 15px 15px;
+    padding:5px;
+}
+
+#content img{
+    border:1px solid #b0b0b0;
+    border-radius: 5px;
+    float: right;
+    margin:5px 15px 15px;
+    padding:5px;
+}
+
+.title{
+    font-size: 50px;
+    color: darkviolet;
+    text-align: center;
+}
+
+/*** Footer ***/
+
+#footer {
+    background:#8b8b8b url(Image/kobe_footer.jpg) top left repeat-x;
+    clear:both;
+    color:#d0d0d0;
+    font-size:0.9em;
+    font-weight:bold;
+    padding:20px 0;
+    text-align:center;
+    width:100%;
+}
+
+/*** Various classes ***/
+.clearingDiv {
+    clear:both;
+    height:20px;
+    width:1px;
+}
+
+/*** End of file ***/
