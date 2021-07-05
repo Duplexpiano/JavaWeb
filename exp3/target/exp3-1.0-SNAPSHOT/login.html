@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css" type="text/css"/>
+</head>
+<body>
+<div id="login">
+    <h1>登陆页面</h1>
+    <form action="login_check.jsp" method="post">
+        <p>学号:<input type="text" name="userId" placeholder="例如:2018110116"/></p><br/>
+        <p>密码:<input type="password" name="userPassword"/></p><br/>
+        <input type="submit" name="submit" value="登陆"/>
+        <input type="reset" name="reset" value="重置"/>
+        <a href="signUp.jsp">
+            <input type="button" name="signUp" value="注册"/>
+        </a>
+    </form>
+</div>
+</body>
+</html>

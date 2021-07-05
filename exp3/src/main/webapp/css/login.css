@@ -1,0 +1,26 @@
+body{
+    font:76% 宋体;
+    text-align:center;
+}
+h1 {
+    color:#505050;
+    font-size:1.6em;
+    font-weight:bold;
+    letter-spacing:-1px;
+    margin:0 0 12px;
+}
+a {
+    color:#505050;
+    font-weight:bold;
+    text-decoration:none;
+}
+p{
+    font-size: 20px;
+}
+#login{
+    background-color: #fafcff;
+    border:2px solid salmon;
+    text-align: center;
+    padding:15px 20px 5px;
+    margin: 20% 200px;
+}
